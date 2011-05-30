@@ -61,7 +61,7 @@ Usage
 
     from django.contrib import admin
 
-    from site_permissions.auth_backends import RestrictSiteMixin
+    from site_permissions.backends import RestrictSiteMixin
 
     from models import Category
 
