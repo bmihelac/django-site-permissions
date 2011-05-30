@@ -73,7 +73,8 @@ Usage
     admin.site.register(Category, CategoryAdmin)
 
 
-2. In django admin set permissions for every ``Site`` object.
+2. In django admin set `Can change site content` object permissions for 
+   ``Site`` objects.
 
 Example app
 -----------
@@ -81,7 +82,8 @@ Example app
 To test application and get a feeling how it works::
 
     cd example
-    ./manage.py syncdb && ./manage.py loaddata sample_data.json
+    ./manage.py syncdb --noinput && ./manage.py loaddata sample_data.json
+    ./manage.py runserver
 
 Usernames are ``admin`` and ``user1``. Password for all users is ``password``.
 
