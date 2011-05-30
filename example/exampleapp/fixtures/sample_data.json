@@ -187,5 +187,15 @@
             "domain": "site_2.example.com", 
             "name": "site 2"
         }
+    },
+    {
+        "pk": 1, 
+        "model": "guardian.userobjectpermission", 
+        "fields": {
+            "object_pk": "1", 
+            "user": 2, 
+            "content_type": 7, 
+            "permission": 22
+        }
     }
 ]
