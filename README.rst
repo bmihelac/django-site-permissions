@@ -8,6 +8,7 @@ to users and groups in django admin interface.
 
 `Sites permissions` will add custom permission ``change_site_content`` to
 ``Site`` model. It depends on django-guardian.
+
 Requiremenents
 --------------
 
